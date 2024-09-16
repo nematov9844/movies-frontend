@@ -1,0 +1,20 @@
+/* Slider balandligini kichikroq qilish */
+.slick-slide img {
+    height: 500px; /* Balandlikni kichikroq qildik */
+    background-position: center;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  /* Next va Prev tugmalarini kattalashtirish */
+  .custom-next, .custom-prev {
+    font-size: 40px; /* Tugmalarni kattalashtirish */
+    z-index: 1;
+    color: black;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 40px; /* Tugmalarni kattaroq qilish */
+    color: black;
+  }
+  
